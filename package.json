@@ -4,7 +4,8 @@
   "description": "Chat application to test new tech and features",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-dev": "webpack -d --watch",
+    "server-dev": "nodemon src/server/index.js"
   },
   "repository": {
     "type": "git",
@@ -45,6 +46,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "sequelize": "^6.1.0",
+    "sequelize-cli": "^6.0.0",
     "socket.io": "^2.3.0",
     "subscriptions-transport-ws": "^0.9.16",
     "webpack-cli": "^3.3.12"
