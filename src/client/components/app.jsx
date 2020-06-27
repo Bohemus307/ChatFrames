@@ -1,10 +1,20 @@
 import React from 'react';
-import io from 'socket.io-client';
+import Frame1 from './Frame1.jsx';
 
 class App extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+
+    };
+  }
+
   render() {
     return (
-      <div>hello world</div>
+      <div>
+        <Frame1 />
+      </div>
     );
   }
 }
