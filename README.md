@@ -1,11 +1,11 @@
 # Chat Frames 1.0.0
 
-Chat application for testing and service design.
+Chat application for testing and service component design.
 
 
 ## Description
 
-
+Chat Apllication with individual sites displayed as frames with chat etc. happening inside the frame. 
 
 ## Getting Started
 
@@ -48,5 +48,4 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 
 ## Acknowledgments
 
-* [C3 charts](https://github.com/matiassingers/awesome-readme)
-* [D3](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
+* 

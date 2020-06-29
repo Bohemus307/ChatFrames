@@ -21,7 +21,7 @@ const prod = {
   db: {
     host: process.env.PROD_DB_HOST || 'database',
     port: parseInt(process.env.TEST_DB_PORT, 10) || 5432,
-    database: process.env.TEST_DB_NAME || 'dataMoments',
+    database: process.env.TEST_DB_NAME || 'chat_app_development',
   },
 };
 
