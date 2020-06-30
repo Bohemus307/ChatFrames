@@ -5,17 +5,28 @@ import {
   Route,
   Link,
 } from 'react-router-dom';
+
 import Frame1 from './Frame1.jsx';
 
 export default function App() {
   return (
     <Router>
       <div>
-        <Link to="/"><Frame1 /></Link>
+        <nav>
+          <ul>
+            <li>
+              <Frame1 />
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/about">About</Link>
+            </li>
+            <li>
+              <Link to="/users">Users</Link>
+            </li>
+          </ul>
+        </nav>
 
-        <Link to="/about">About</Link>
-
-        <Link to="/users">Users</Link>
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
@@ -37,7 +48,7 @@ export default function App() {
 function Home() {
   return (
     <div>
-      hello world
+      <Frame1 />
     </div>
   );
 }
